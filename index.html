@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101817" />
+  <meta name="description" content="Portfolio d'étudiant en génie civil : projets, compétences et parcours." />
+  <title>[Votre nom] — Portfolio en génie civil</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">GC</span>
+      <span>[Votre nom]<small>Génie civil · Étudiant</small></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a class="nav-contact" href="#contact">Me contacter <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Étudiant en première année de cycle préparatoire</p>
+        <h1>Construire<br />le monde de <span class="text-accent">demain.</span></h1>
+        <p class="hero-description">
+          Passionné par les structures, les matériaux et les défis techniques,
+          je pose aujourd'hui les bases d'un avenir dans le génie civil.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projets">Découvrir mes projets <span>↘</span></a>
+          <a class="text-link" href="#apropos">En savoir plus <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="meta-line"></i> Basé à [Votre ville]</span>
+          <span>Disponible pour un stage d'observation</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration architecturale">
+        <div class="visual-grid"></div>
+        <div class="visual-label label-top">ÉTUDE · CONCEPTION · CONSTRUCTION</div>
+        <div class="blueprint">
+          <div class="blueprint-sun"></div>
+          <div class="blueprint-building building-back"></div>
+          <div class="blueprint-building building-front">
+            <div class="building-top"></div>
+            <div class="building-columns"></div>
+          </div>
+          <div class="ground-line"></div>
+          <div class="dimension dimension-left"><span>STRUCTURE</span></div>
+          <div class="dimension dimension-bottom"><span>01 — 25</span></div>
+        </div>
+        <div class="visual-card">
+          <span class="card-icon">⌁</span>
+          <span>Penser les structures.<br /><strong>Imaginer les possibles.</strong></span>
+        </div>
+        <div class="visual-index">01 <span>/ 04</span></div>
+      </div>
+      <a class="scroll-cue" href="#apropos"><span></span> Défiler pour explorer</a>
+    </section>
+
+    <section class="intro section-shell" id="apropos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — À PROPOS</p>
+        <h2>Curieux par nature.<br /><span class="muted">Rigoureux par ambition.</span></h2>
+      </div>
+      <div class="intro-content reveal">
+        <p class="intro-lead">
+          Je suis étudiant en première année de cycle préparatoire en génie civil.
+          Mon objectif : comprendre comment les idées deviennent des ouvrages durables.
+        </p>
+        <p class="body-copy">
+          J’aime apprendre, résoudre des problèmes et travailler en équipe. En parallèle
+          de ma formation, je développe mes bases en mathématiques, physique, dessin
+          technique et outils numériques. Ce portfolio rassemble mon parcours et mes
+          premiers travaux.
+        </p>
+        <a class="text-link" href="#contact">Échangeons ensemble <span>↗</span></a>
+      </div>
+      <div class="stats-row reveal">
+        <div><strong data-count="1">0</strong><span>année de formation</span></div>
+        <div><strong data-count="3">0</strong><span>domaines d'intérêt</span></div>
+        <div><strong>∞</strong><span>envie d'apprendre</span></div>
+      </div>
+    </section>
+
+    <section class="skills section-shell" id="competences">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — COMPÉTENCES</p>
+        <h2>Des bases solides,<br /><span class="muted">en constante évolution.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span><span class="skill-icon">∑</span>
+          <h3>Sciences fondamentales</h3>
+          <p>Mathématiques, mécanique et physique appliquées aux premières bases du génie civil.</p>
+          <div class="skill-tags"><span>Mathématiques</span><span>Physique</span><span>Mécanique</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">02</span><span class="skill-icon">⌖</span>
+          <h3>Dessin & conception</h3>
+          <p>Lecture de plans, représentation des volumes et découverte des outils de conception.</p>
+          <div class="skill-tags"><span>Dessin technique</span><span>Plans</span><span>CAO à découvrir</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <span class="skill-number">03</span><span class="skill-icon">▤</span>
+          <h3>Outils numériques</h3>
+          <p>Premières réalisations web et prise en main progressive des logiciels techniques.</p>
+          <div class="skill-tags"><span>HTML / CSS</span><span>JavaScript</span><span>[Logiciel]</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projets">
+      <div class="projects-heading reveal">
+        <div class="section-heading">
+          <p class="eyebrow">03 — PROJETS</p>
+          <h2>Apprendre en<br /><span class="muted">faisant.</span></h2>
+        </div>
+        <p class="body-copy">Mes projets évolueront avec ma formation. Voici quelques exemples à remplacer par vos travaux réels.</p>
+      </div>
+
+      <div class="project-list">
+        <article class="project-item reveal">
+          <div class="project-art art-bridge"><span class="art-label">ÉTUDE STRUCTURELLE</span><div class="bridge-deck"></div><div class="bridge-arch"></div></div>
+          <div class="project-info"><span class="project-type">01 / EXERCICE ACADÉMIQUE</span><h3>Étude d'une structure</h3><p>Analyse simplifiée des forces et représentation d'un ouvrage en [matériau].</p><div class="project-tags"><span>Mécanique</span><span>Schéma</span></div></div>
+          <span class="project-arrow">↗</span>
+        </article>
+        <article class="project-item reveal">
+          <div class="project-art art-model"><span class="art-label">MAQUETTE · CONCEPTION</span><div class="model-block block-a"></div><div class="model-block block-b"></div><div class="model-block block-c"></div></div>
+          <div class="project-info"><span class="project-type">02 / PROJET PERSONNEL</span><h3>Maquette architecturale</h3><p>Exploration des formes, des proportions et des principes de stabilité.</p><div class="project-tags"><span>Conception</span><span>Maquette</span></div></div>
+          <span class="project-arrow">↗</span>
+        </article>
+        <article class="project-item reveal">
+          <div class="project-art art-web"><span class="art-label">PORTFOLIO · WEB</span><div class="web-window"><i></i><i></i><i></i><b></b><b></b></div></div>
+          <div class="project-info"><span class="project-type">03 / APPRENTISSAGE NUMÉRIQUE</span><h3>Portfolio personnel</h3><p>Création de cette page pour présenter mon profil et progresser en développement web.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          <span class="project-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey section-shell" id="parcours">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — PARCOURS</p>
+        <h2>Le début d'un<br /><span class="muted">long chantier.</span></h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item active"><span class="timeline-dot"></span><span class="timeline-date">[2025 — aujourd'hui]</span><div><h3>Cycle préparatoire — Génie civil</h3><p>[Nom de l'établissement] · [Ville]</p><small>Sciences fondamentales, méthodologie et découverte des métiers du génie civil.</small></div><span class="timeline-status">EN COURS</span></div>
+        <div class="timeline-item"><span class="timeline-dot"></span><span class="timeline-date">[2022 — 2025]</span><div><h3>Baccalauréat / diplôme précédent</h3><p>[Nom de l'établissement] · [Ville]</p><small>[Spécialités ou matières principales]</small></div><span class="timeline-status">TERMINÉ</span></div>
+        <div class="timeline-item future"><span class="timeline-dot"></span><span class="timeline-date">À VENIR</span><div><h3>Ingénierie & projets concrets</h3><p>La prochaine étape</p><small>Approfondir mes compétences et contribuer à des projets utiles et durables.</small></div><span class="timeline-status">OBJECTIF</span></div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-orbit orbit-one"></div><div class="contact-orbit orbit-two"></div>
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Un projet, une idée<br />ou un conseil ?</h2>
+        <p>Je serais ravi d’échanger avec vous sur le génie civil, mon parcours ou une opportunité de stage.</p>
+        <a class="button button-light" href="mailto:votre.email@exemple.com">M’écrire un message <span>↗</span></a>
+        <div class="contact-detail"><span>EMAIL</span><a href="mailto:votre.email@exemple.com">votre.email@exemple.com</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="brand" href="#accueil"><span class="brand-mark">GC</span><span>[Votre nom]<small>Génie civil · Étudiant</small></span></a>
+    <p>Conçu avec curiosité et précision.</p>
+    <a class="back-top" href="#accueil">Retour en haut ↑</a>
+    <small class="copyright">© <span id="year"></span> [Votre nom]</small>
+  </footer>
+</body>
+</html>
